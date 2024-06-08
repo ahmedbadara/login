@@ -1,0 +1,95 @@
+body {
+  background-color: #24353f;
+}
+.sign-up {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navbar {
+  background-color: #24353f;
+  color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1 {
+  color: #17a2b8;
+}
+.sign-up .form-up {
+  background-color: #24353f;
+  border: 0px transparent !important;
+}
+.sign-up .form-up input {
+  background-color: #24353f; 
+  color: white;
+}
+.sign-up .form-up input::placeholder {
+  color: #fff;
+}
+.sign-in {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sign-in .form-in {
+  background-color: #24353f;
+  border: 0px transparent !important;
+}
+.sign-in .form-in input {
+  background-color: #24353f; 
+  color: white;
+}
+.sign-in .form-in input::placeholder {
+  color: #fff;
+}
+.sign-in .form-in input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+} 
+
+.sign-up .form-up input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0 transparent !important; 
+} 
+
+.navbar-nav {
+  position: absolute;
+  right: 0;
+}
+.navbar-collapse .navbar-nav .nav-item button {
+  width: 100% !important;
+}
+
+@media (max-width: 575.98px) {
+  .vh-100 .container .sign-up,
+  .vh-100 .container .sign-in {
+    width: 80% !important;
+  }
+  .navbar-collapse .navbar-nav {
+    position: absolute;
+    top: 10px;
+
+    left: 45%;
+    width: 100% !important;
+  }
+} 
+.logied{ 
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+
+@media (max-width: 768px) {
+  .sign-up,
+  .sign-in {
+    width: 70% !important;
+  }
+  .navbar-collapse .navbar-nav {
+    position: relative;
+    width: 100% !important;
+    transform: translate(-50%, -50%);
+  }
+} 
