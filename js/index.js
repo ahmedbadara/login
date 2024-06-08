@@ -51,7 +51,7 @@ function addUser() {
   localStorage.setItem("userDataInput", JSON.stringify(userData));
   emptyInputMessage.innerHTML = "Success";
   setTimeout(() => {
-    window.location.href = "signin.html"; // Redirect to sign-in page on successful sign-up
+    window.location.href = "../html/signin.html"; // Redirect to sign-in page on successful sign-up
   }, 1000);
   return true;
 }
